@@ -1,0 +1,258 @@
+.results-screen {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d1b2a, #1b3a5c);
+  padding: 40px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.results-container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.results-heading {
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.levelup-banner {
+  background: linear-gradient(135deg, #f1c40f, #e67e22);
+  border-radius: 14px;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  animation: pop 0.4s ease;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.levelup-badge {
+  font-size: 2.5rem;
+}
+
+.levelup-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #1b2a4a;
+}
+
+.levelup-sub {
+  font-size: 0.9rem;
+  color: #3d2b00;
+}
+
+.results-section {
+  margin-bottom: 24px;
+}
+
+.section-head {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.success-head { color: #2ecc71; }
+.fail-head { color: #e67e22; }
+
+.result-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.result-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px 18px;
+  border-left: 5px solid var(--tier-color);
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-16px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.result-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.result-cat-icon { font-size: 1.1rem; }
+
+.result-cat {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #888;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.tier-badge {
+  color: #1b2a4a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.result-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1b2a4a;
+  margin-bottom: 4px;
+}
+
+.result-journal {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.result-impact {
+  background: #f0fdf4;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 0.82rem;
+  color: #1b4a2a;
+  display: flex;
+  gap: 6px;
+}
+
+.result-rewards-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.budget-earned {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #27ae60;
+}
+
+.prestige-earned {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #9b59b6;
+}
+
+.event-banner {
+  background: linear-gradient(135deg, #7b2d2d, #a93226);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  animation: pop 0.4s ease;
+}
+
+.event-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.event-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.event-desc {
+  font-size: 0.83rem;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.45;
+}
+
+.event-cut {
+  margin-left: auto;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #f1948a;
+  white-space: nowrap;
+}
+
+.reward-loss {
+  font-weight: 700;
+  color: #e74c3c;
+}
+
+.fail-note {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 10px;
+}
+
+.fail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fail-item {
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: rgba(255,255,255,0.8);
+  font-size: 0.88rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rewards-box {
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rewards-row {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.reward-value {
+  font-weight: 700;
+  color: #2ecc71;
+}
+
+.continue-btn {
+  width: 100%;
+  padding: 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.continue-btn:hover {
+  background: #1e8449;
+  transform: translateY(-1px);
+}

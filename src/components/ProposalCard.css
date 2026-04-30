@@ -1,0 +1,138 @@
+.proposal-card {
+  background: white;
+  border-radius: 14px;
+  padding: 18px;
+  border: 2.5px solid transparent;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.proposal-card:hover:not(.unaffordable) {
+  border-color: var(--cat-color);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+.proposal-card.funded {
+  border-color: #27ae60;
+  background: #f0fdf4;
+  box-shadow: 0 4px 16px rgba(39,174,96,0.2);
+}
+
+.proposal-card.unaffordable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cat-icon { font-size: 1.2rem; }
+
+.cat-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.card-title {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #1b2a4a;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.card-desc {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.55;
+  margin: 0;
+  flex: 1;
+}
+
+.card-impact {
+  background: #fffbea;
+  border-left: 3px solid #f1c40f;
+  padding: 8px 10px;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.8rem;
+  color: #333;
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.impact-icon { flex-shrink: 0; font-size: 0.9rem; }
+
+.risk-reward-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f7f9fc;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.rr-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.rr-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #999;
+}
+
+.stars { display: flex; gap: 2px; }
+
+.star {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.rr-divider {
+  width: 1px;
+  height: 32px;
+  background: #e0e0e0;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-cost {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #1b2a4a;
+}
+
+.fund-btn {
+  padding: 7px 16px;
+  background: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  pointer-events: none;
+  transition: background 0.2s;
+}
+
+.funded-btn { background: #27ae60; }
