@@ -285,14 +285,14 @@ export const ALL_PROPOSALS = [
   },
   {
     id: "p16",
-    title: "Childhood Trauma and Brain Development",
+    title: "Stress and Resilience in Children's Brain Development",
     category: "MENTAL_HEALTH",
-    description: "Stressful early experiences can change how the brain grows. This research studies what helps children recover and build resilience.",
+    description: "Hard experiences early in life can affect how the brain grows. This research studies what helps children build resilience and bounce back stronger.",
     cost: 4,
     risk: "medium",
     successRate: 0.68,
-    journalWeights: [0.05, 0.10, 0.18, 0.28, 0.25, 0.14], // MR_HR — trauma + policy implications → top journals
-    impact: "Could transform how foster care and pediatric mental health programs support children.",
+    journalWeights: [0.05, 0.10, 0.18, 0.28, 0.25, 0.14], // MR_HR
+    impact: "Could transform how pediatric mental health programs help children build resilience and thrive.",
   },
 
   // ── INJURY PREVENTION ────────────────────────────────────────────────────
@@ -412,7 +412,7 @@ export const ALL_PROPOSALS = [
     id: "p37",
     title: "Behavioral Health Services for Children in Foster Care",
     category: "HEALTH_SYSTEMS",
-    description: "Children in foster care have high rates of trauma and mental health needs, but many never receive services. This study maps access to home-based care.",
+    description: "Children in foster care often have unmet mental health needs but many never receive services. This study maps access to home-based care and tests new ways to reach them.",
     cost: 2,
     risk: "low",
     successRate: 0.85,

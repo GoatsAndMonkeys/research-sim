@@ -443,9 +443,9 @@ export const PEER_REVIEW_ROUNDS = [
     question: "Which study would have the biggest impact on children's health?",
     options: [
       {
-        title: "Screening all children for adverse childhood experiences and connecting families to support",
+        title: "A program connecting low-income children to regular pediatric checkups and developmental screenings",
         impact: "large",
-        desc: "Adverse childhood experiences — abuse, neglect, family instability — affect 2 in 3 children and are the strongest predictor of poor health across their entire lives.",
+        desc: "Millions of children miss key checkups every year. Early screenings catch vision problems, hearing loss, and developmental delays when they are easiest to treat.",
       },
       {
         title: "Improved wheel design for children's wheelchairs",
@@ -459,7 +459,7 @@ export const PEER_REVIEW_ROUNDS = [
       },
     ],
     correctIndex: 0,
-    explanation: "Adverse childhood experiences are the most powerful predictor of poor physical and mental health throughout life — and they affect the majority of children. Identifying families early and connecting them to support can change the trajectory of millions of lives.",
+    explanation: "Regular checkups catch vision problems, hearing loss, and developmental delays early — when they're easiest to fix. Millions of children in low-income families miss these visits every year, and the gaps compound over time.",
   },
   {
     id: "pr21",
@@ -535,9 +535,9 @@ export const PEER_REVIEW_ROUNDS = [
     question: "Which study would have the biggest impact on children's health?",
     options: [
       {
-        title: "Home visiting program for first-time parents in poverty that reduces child abuse and improves brain development",
+        title: "Home visiting program for new parents that supports baby brain development and school readiness",
         impact: "large",
-        desc: "Evidence-based home visiting reduces abuse, supports brain development, and increases school readiness — reaching families at their most vulnerable moment.",
+        desc: "Trained visitors help new parents learn how to support their baby's brain development through talking, reading, and play — boosting school readiness for thousands of children.",
       },
       {
         title: "A new formula for diaper rash cream",
@@ -551,7 +551,7 @@ export const PEER_REVIEW_ROUNDS = [
       },
     ],
     correctIndex: 0,
-    explanation: "Home visiting programs have decades of evidence behind them — they reduce child abuse, neglect, and developmental delays by giving families support when it matters most. The impact compounds over years.",
+    explanation: "Home visiting programs give new parents the tools to support their baby's brain development from the very start. Children in these programs arrive at kindergarten healthier and more ready to learn.",
   },
   {
     id: "pr25",
@@ -696,9 +696,9 @@ export const PEER_REVIEW_ROUNDS = [
     question: "Which study would have the biggest impact on children's health?",
     options: [
       {
-        title: "Mentoring program for teenagers in high-crime neighborhoods that reduces violence and improves graduation rates",
+        title: "After-school mentoring program connecting students in underserved communities with role models and educational support",
         impact: "large",
-        desc: "Violence is a leading cause of death for teenagers. A mentoring program that reduces it also improves long-term health through education and opportunity.",
+        desc: "Students with mentors stay in school longer and are healthier as adults. Education is one of the strongest predictors of lifelong health.",
       },
       {
         title: "Fun cartoon graphics on adhesive bandages for children",
@@ -712,7 +712,7 @@ export const PEER_REVIEW_ROUNDS = [
       },
     ],
     correctIndex: 0,
-    explanation: "Violence is the second leading cause of death for teenagers. Mentoring programs that reduce violence also keep teens in school — and education is one of the strongest predictors of lifelong health. Preventing one death is profound; changing a neighborhood's trajectory is even bigger.",
+    explanation: "Students with mentors are more likely to stay in school, go to college, and live healthier lives as adults. Education is one of the most powerful predictors of long-term health — and mentoring programs make it accessible to more children.",
   },
   {
     id: "pr32",
@@ -850,7 +850,7 @@ export const SCRAMBLE_GRANTS = [
   { id: "sg15", title: "School-based health clinics in high-need neighborhoods",    category: "HEALTH_SYSTEMS" },
   { id: "sg16", title: "Treating cystic fibrosis in young children",                category: "RARE"           },
   { id: "sg17", title: "Cooling therapy to prevent brain injury at birth",          category: "NEONATAL"       },
-  { id: "sg18", title: "How childhood trauma changes brain development",            category: "MENTAL_HEALTH"  },
+  { id: "sg18", title: "How stress affects learning and memory in school-age children", category: "MENTAL_HEALTH"  },
   { id: "sg19", title: "Studying antibiotic resistance in pediatric infections",    category: "INFECTIOUS"     },
   { id: "sg20", title: "Value-based payment models for children's hospitals",       category: "HEALTH_SYSTEMS" },
   { id: "sg21", title: "Language development in toddlers with speech delays",       category: "DEVELOPMENT"    },
